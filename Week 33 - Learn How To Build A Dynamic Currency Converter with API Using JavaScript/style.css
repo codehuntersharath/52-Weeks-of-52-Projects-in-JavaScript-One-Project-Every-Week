@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 2rem;
+}
+
+.form-group input,
+select {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0px;
+}
+
+.form-group label {
+  align-items: start;
+  display: flex;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.form-control i {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.rotate {
+  transform: rotate(180deg) !important;
+}
+
+button {
+  width: 20%;
+  height: 45px;
+  background: #78c1f3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-output p {
+  margin: 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-output p:nth-child(2) {
+  font-size: 30px;
+  color: rgb(46, 60, 87);
+}
+
+.form-output p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height: 25px;
+  position: relative;
+  top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 10px;
+  }
+
+  .form-group {
+    display: block;
+  }
+
+  .form-group input,
+  select {
+    width: 100%;
+  }
+
+  .extraLabel {
+    padding: 0 !important;
+  }
+
+  .form-control i {
+    transform: rotate(90deg);
+  }
+
+  .rotate {
+    transform: rotate(270deg) !important;
+  }
+}

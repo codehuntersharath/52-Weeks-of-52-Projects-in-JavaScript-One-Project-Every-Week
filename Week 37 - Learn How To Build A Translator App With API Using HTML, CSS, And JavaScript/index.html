@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Translator App - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card translateInput">
+      <div>
+        <select id="selectInputLang"></select>
+      </div>
+      <div class="textArea">
+        <textarea id="inputText"></textarea>
+        <div class="characters"><span id="inputChar">0</span> / 5000</div>
+      </div>
+      <div class="cardFooter">
+        <i class="fa-solid fa-copy" onclick="copyLanguage(inputText)"></i>
+      </div>
+    </div>
+    <div class="rotate">
+      <i class="fa-solid fa-arrow-right-arrow-left" onclick="swapLanguage(this)"></i>
+      <i class="fa-solid fa-language" onclick="translateText()"></i>
+    </div>
+    <div class="card translateOutput">
+      <div>
+        <select id="selectOutputLang"></select>
+      </div>
+      <div class="textArea">
+        <textarea disabled id="outputText"></textarea>
+      </div>
+      <div class="cardFooter">
+        <i class="fa-solid fa-copy" onclick="copyLanguage(outputText)"></i>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

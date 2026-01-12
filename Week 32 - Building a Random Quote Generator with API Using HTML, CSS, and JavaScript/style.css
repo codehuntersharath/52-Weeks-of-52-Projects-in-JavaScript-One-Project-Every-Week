@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  width: 90%;
+  min-height: 250px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h2 {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.quote div {
+  padding: 1rem 2.5rem;
+  font-size: 20px;
+}
+
+.quote .author {
+  padding: 0;
+  margin-top: 1rem;
+  text-align: right;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.quote .fa-quote-left,
+.quote .fa-quote-right {
+  font-size: 10px;
+  position: relative;
+  top: -8px;
+}
+
+.quote .author span,
+.favoriteList ul li span {
+  font-family: monospace;
+  position: relative;
+  top: -6px;
+  left: -5px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 1px solid #78c1f3;
+}
+
+.buttons button {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #78c1f3;
+  color: #fff;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #3498db;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+.icons i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  border: 5px solid #2980b9;
+}
+
+.ribbon span {
+  position: absolute;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font: 700 18px/1 "Lato", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ribbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+.favoriteList .fa-arrow-left-long {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.favoriteList .fa-broom {
+  cursor: pointer;
+  font-size: 22px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.favoriteList ul {
+  list-style-type: none;
+  padding: 2rem 1rem;
+}
+
+.favoriteList ul li {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #78c1f3;
+}
+
+.favoriteList ul li .author {
+  padding: 0;
+  text-align: right;
+  font-style: italic;
+  font-size: 16px;
+}

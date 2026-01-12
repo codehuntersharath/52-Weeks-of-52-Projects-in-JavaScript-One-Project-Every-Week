@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e7f2fd;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.sideNav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: #1b84ff;
+  width: 16rem;
+  padding: 1.8rem 0.85rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.5s ease-in-out;
+}
+
+.sideNav::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+
+.sideBarTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.sideBarTop i {
+  cursor: pointer;
+  font-size: 2.2rem;
+  padding: 5px;
+}
+
+.sideBarTop h4 {
+  margin-bottom: 10px;
+}
+
+.sideNav li {
+  list-style-type: none;
+  color: #cfcde7;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px 0px;
+}
+
+.sideNav .sideBar-item i {
+  font-size: 1.2rem;
+  text-align: center;
+  min-width: 3.7rem;
+}
+
+.sideNav .sideBar-item:hover {
+  color: #fff;
+}
+
+.sideNav .withSub {
+  display: block;
+}
+
+.active-tab {
+  padding: 15px 5px;
+  background-color: #2e4bd7;
+  border-radius: 10px;
+  transition: top 0.3s;
+  color: #fff !important;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  right: 5px;
+}
+
+.subMenu {
+  display: none;
+}
+
+.subMenu li {
+  padding-left: 35px;
+}
+
+.withSub .openSubMenu {
+  display: block;
+  padding-top: 15px;
+}
+
+.withSub:has(> .openSubMenu) .fa-chevron-right {
+  transform: rotate(90deg);
+}
+
+.withSub:has(> .openSubMenu) {
+  padding-bottom: 0;
+}
+
+.pop-btn {
+  position: absolute;
+  top: 3.5rem;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  background-color: #1b84ff;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px -3px rgba(70, 46, 118, 0.3);
+  right: -2rem;
+  transform: translateY(-50%) translateX(-8px);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.sideNav:hover .pop-btn {
+  transform: translateY(-50%) translateX(0px);
+  opacity: 1;
+  pointer-events: all;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  color: #1f2027;
+  display: flex;
+  flex-direction: column;
+}
+
+body.sideBarActive .sideNav {
+  width: 5.5rem;
+}
+
+body.sideBarActive .sideNav .sideBarTop h4 {
+  display: none;
+}
+
+body.sideBarActive .sideNav .pop-btn .fa-chevron-left {
+  transform: rotate(-180deg);
+}
+
+body.sideBarActive .sideBar-item span,
+body.sideBarActive .sideBar-item .fa-chevron-right {
+  display: none;
+}
+
+body.sideBarActive .sideBar-item.withSub {
+  display: flex;
+}
+
+body.sideBarActive .sideBar-item.withSub:has(> .openSubMenu) {
+  display: block;
+}
+
+body.sideBarActive .sideBar-item .subMenu li {
+  padding-left: 0;
+}
+
+body.sideBarActive .sideBar-item .toolTip {
+  background-color: #1b84ff;
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  right: -0.3rem;
+  transform: translateX(100%);
+  padding: 5px;
+  font-size: 0.85rem;
+  border-radius: 7px;
+  box-shadow: 0 3px 10px -3px rgba(70, 46, 118, 0.3);
+  transition: all 0.3s;
+  text-align: center;
+  white-space: nowrap;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.sideBarActive .sideBar-item:hover .toolTip {
+  display: block;
+  opacity: 1;
+  color: #fff;
+}

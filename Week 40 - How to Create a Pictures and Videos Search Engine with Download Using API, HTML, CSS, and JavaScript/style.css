@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  min-height: 100vh;
+}
+
+ul,
+li {
+  list-style: none;
+  color: #000;
+}
+
+li {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+i {
+  color: #000;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.container .search {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .search img {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container .search .inputArea {
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  width: 50%;
+}
+
+.container .search .inputArea .searchBox {
+  height: 55px;
+  margin: 15px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.container .search .inputArea .searchBox #searchText {
+  width: 80%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.fa-magnifying-glass {
+  width: 55px;
+}
+
+.dropdown {
+  max-width: 13em;
+  position: relative;
+  width: 150px;
+}
+
+.dropdown-btn {
+  color: #000;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em 0.5em;
+  cursor: pointer;
+}
+
+.arrow {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #000;
+  transition: transform ease-in-out 0.3s;
+}
+
+.dropdown-content {
+  list-style: none;
+  position: absolute;
+  top: 3.1em;
+  width: 100%;
+  visibility: hidden;
+  transform: translateY(-1em);
+  transition: transform ease 0.3s;
+}
+
+input[type="checkbox"]:checked~.dropdown-content {
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content li {
+  background: #fff;
+  border-radius: 0.5em;
+  padding: 0.7em 0.5em;
+  margin: 0.1em 0;
+  align-items: center;
+}
+
+input[type="checkbox"]:checked+label>.arrow {
+  transform: rotate(180deg);
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+#dropdownSelectedValue {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.gallery .items {
+  gap: 15px;
+  max-width: 95%;
+  margin-top: 40px;
+  columns: 5 340px;
+  text-align: center;
+}
+
+.gallery .card {
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+
+.gallery .items img,
+.gallery .items video {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.gallery .card:hover .details {
+  bottom: 0;
+}
+
+.gallery .items .details {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  bottom: -100px;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  justify-content: space-between;
+  transition: bottom 0.1s ease;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.gallery .items .photographer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gallery .items .photographer i {
+  color: #fff;
+}
+
+.gallery .items .details button {
+  background: #fff;
+  font-size: 1.1rem;
+  padding: 3px 8px;
+}
+
+button,
+i {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.loadMore {
+  color: #78c1f3;
+  background: #fff;
+  margin: 50px 0;
+  font-size: 1rem;
+  padding: 15px 25px;
+}
+
+.popupView {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.popupView.show {
+  visibility: visible;
+}
+
+.popupView .wrapper {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  padding: 20px;
+  max-width: 850px;
+  background: #fff;
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
+  transition: transform 0.1s ease;
+}
+
+.popupView.show .wrapper {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popupView .wrapper .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popupView .wrapper .details .photographer {
+  color: #333;
+  gap: 10px;
+  display: flex;
+}
+
+.popupView .wrapper .details .photographer i {
+  font-size: 1.7rem;
+  cursor: auto;
+}
+
+.popupView .wrapper .details .photographer span {
+  font-size: 1.2rem;
+}
+
+.popupView .wrapper .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.popupView .wrapper .details .buttons i {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 40px;
+  text-align: center;
+  background: #69bbf1;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.popupView .wrapper .previewItem {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.popupView .wrapper .previewItem .elementItem {
+  max-height: 65vh;
+}
+
+.popupView .wrapper .previewItem img,
+.popupView .wrapper .previewItem video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.notFound i {
+  color: #fff;
+}
+
+.notFound h1 {
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 788px) {
+  .inputArea h1 {
+    font-size: 1.8rem;
+  }
+
+  .container .search .inputArea {
+    width: 90%;
+  }
+
+  .popupView .wrapper {
+    left: 47%;
+    margin: 25px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .popupView .wrapper {
+    left: 45%;
+    margin: 20px;
+    width: 95%;
+  }
+}

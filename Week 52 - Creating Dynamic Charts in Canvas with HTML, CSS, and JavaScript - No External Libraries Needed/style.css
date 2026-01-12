@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: #78c1f3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.radioGrp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  padding: 1rem;
+  background-color: #181825;
+  box-shadow: 14px 14px 0 0 #ffffff;
+}

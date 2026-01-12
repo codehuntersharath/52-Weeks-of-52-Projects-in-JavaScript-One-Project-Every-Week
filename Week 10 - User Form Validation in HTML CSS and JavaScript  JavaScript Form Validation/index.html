@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javascript Form Validation - By Sharathchandar.K</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form id="createAccountForm">
+      <h2>Create User Account</h2>
+      <div class="form-control">
+        <label>Full Name *</label>
+        <input type="text" id="FullName" placeholder="" autocomplete="off" onblur="CheckFullName()" />
+        <img />
+        <small></small>
+      </div>
+      <div class="form-control">
+        <label>Email *</label>
+        <input type="text" id="Email" placeholder="" onblur="CheckEmail()" />
+        <img />
+        <small></small>
+      </div>
+      <div class="form-control">
+        <label>Password *</label>
+        <input type="password" id="Password1" placeholder="" autocomplete onblur="CheckPassword1()" />
+        <img />
+        <small></small>
+      </div>
+      <div class="form-control">
+        <label>Confirm Password *</label>
+        <input type="password" id="Password2" placeholder="" autocomplete onblur="CheckPassword2()" />
+        <img id="confirmPassword" />
+        <small></small>
+      </div>
+      <div class="form-button">
+        <button>Submit</button>
+      </div>
+    </form>
+    <div id="conformation">
+      <h2>Create Conformation</h2>
+      <img src="images/mark.png" />
+      <p>Form submitted successfully!</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

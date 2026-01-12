@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.month-picker {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.month-picker:hover {
+  background: #78c1f3;
+}
+
+.year-picker {
+  user-select: none;
+}
+
+.year-picker span {
+  cursor: pointer;
+}
+
+.calendar-week-day {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: 600;
+  height: 50px;
+}
+
+.calendar-week-day div {
+  display: grid;
+  place-items: center;
+  color: #79788c;
+}
+
+.calendar-day {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.calendar-day div {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+  animation: to-top 1s forwards;
+}
+
+@keyframes to-top {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.currentDate {
+  background: #78c1f3;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.month-list {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 5px;
+  transform: scale(1.5);
+  visibility: hidden;
+  pointer-events: none;
+  background: #fff;
+}
+
+.month-list.show {
+  transform: scale(1);
+  visibility: visible;
+  pointer-events: visible;
+  transition: all 0.2s ease-in-out;
+}
+
+.month-list>div {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}

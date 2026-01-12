@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Card Game - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <h1>Memory Card Game</h1>
+  <div class="container">
+    <div class="startGame">
+      <div class="card active" level="2" column="2" row="2">
+        <div class="front">Easy</div>
+        <div class="back">2 * 2</div>
+      </div>
+      <div class="card" level="6" column="3" row="4">
+        <div class="front">Normal</div>
+        <div class="back">3 * 4</div>
+      </div>
+      <div class="card" level="8" column="4" row="4">
+        <div class="front">Expert</div>
+        <div class="back">4 * 4</div>
+      </div>
+
+      <span></span>
+      <button>Start Game</button>
+      <span></span>
+    </div>
+
+    <div class="playground"></div>
+  </div>
+
+  <i class="fa-solid fa-repeat" style="display: none"></i>
+</body>
+
+</html>

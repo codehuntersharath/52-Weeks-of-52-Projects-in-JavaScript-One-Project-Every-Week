@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Registration Form - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration</h2>
+    <form>
+      <div class="row">
+        <div class="col">
+          <label for="">First Name</label>
+          <input class="form-input" type="text" placeholder="Enter First Name" required />
+        </div>
+        <div class="col">
+          <label for="">Last Name</label>
+          <input class="form-input" type="text" placeholder="Enter Last Name" required />
+        </div>
+
+        <div class="col">
+          <label for="">Username</label>
+          <input class="form-input" type="text" placeholder="Enter Username" required />
+        </div>
+        <div class="col">
+          <label for="">Email</label>
+          <input class="form-input" type="email" placeholder="Enter Email Address" required />
+        </div>
+
+        <div class="col">
+          <label for="">Password</label>
+          <input class="form-input" type="password" placeholder="Enter Password" required />
+        </div>
+        <div class="col">
+          <label for="">Confirm Password</label>
+          <input class="form-input" type="password" placeholder="Enter Confirm Password" required />
+        </div>
+
+        <div class="col">
+          <label for="">Age</label>
+          <input class="form-input" type="number" placeholder="Enter Age" min="1" max="99" required />
+        </div>
+        <div class="col">
+          <label for="">Mobile Number</label>
+          <input class="form-input" type="tel" placeholder="Enter Mobile Number" required />
+        </div>
+
+        <div class="col">
+          <label for="">Gender</label>
+          <select class="form-input" required>
+            <option></option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="">Date of Birth</label>
+          <input class="form-input" type="date" required onfocus="this.max=new Date().toISOString().split('T')[0]" />
+        </div>
+      </div>
+      <div>
+        <label>Address</label>
+        <input class="form-input" type="text" placeholder="Enter Full Address" required />
+      </div>
+      <button class="form-button">Create Account</button>
+    </form>
+  </div>
+</body>
+
+</html>

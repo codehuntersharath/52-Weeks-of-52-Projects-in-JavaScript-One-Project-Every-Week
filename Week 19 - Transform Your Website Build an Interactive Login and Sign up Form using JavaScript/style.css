@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(77 163 210);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 35px;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: rgb(111 179 216);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.form-control {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0px solid #000;
+  background-color: #fff;
+  height: 45px;
+  border-radius: 1px;
+  color: rgb(77 163 210);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-control input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 45px;
+}
+
+.form-control i {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.fa-envelope {
+  font-size: 16px !important;
+  margin: 13px !important;
+}
+
+.form-control-other {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.form-control-other a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.remember,
+.terms {
+  display: flex;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+label {
+  color: #fff;
+  font-size: 14px;
+}
+
+.forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 45px;
+  background-color: rgb(51, 133, 189);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.form-wrapper {
+  transition: 1s ease-in-out;
+  height: 100%;
+}
+
+.logIn {
+  margin: 18% auto;
+}
+
+.fa-eye {
+  cursor: pointer;
+}

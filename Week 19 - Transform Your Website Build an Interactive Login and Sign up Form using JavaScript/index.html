@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animated Login & Signup Form - By SharathchandarK</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <form validate class="form-wrapper logIn">
+      <h1>LOGIN</h1>
+      <div class="form-control">
+        <i class="fa fa-user"></i>
+        <input type="text" id="UsernameLogin" placeholder="Username" required />
+      </div>
+      <div class="form-control">
+        <i class="fa fa-lock"></i>
+        <input type="password" id="Password" placeholder="Password" required />
+        <i class="fa fa-eye" onclick="changePasswordHideVisible('Password', this)"></i>
+      </div>
+      <div class="form-control-other">
+        <div class="forget">
+          <label class="remember" for="remember"><input id="remember" type="checkbox" />&nbsp; Remember Me</label>
+          <a href="javascript:void(0)">Forget Password?</a>
+        </div>
+      </div>
+      <div class="form-control-other">
+        <button type="submit">LOGIN</button>
+      </div>
+      <div class="form-control-other">
+        <label for="create">Don't have an account?
+          <a href="javascript:void(0)" id="create"> Create</a></label>
+      </div>
+    </form>
+
+    <form validate class="form-wrapper signUp">
+      <h1>SIGN UP</h1>
+      <div class="form-control">
+        <i class="fa fa-user"></i>
+        <input type="text" id="UsernameSignUp" placeholder="Username" required />
+      </div>
+      <div class="form-control">
+        <i class="fa fa-envelope"></i>
+        <input type="email" id="Email" placeholder="Email" required />
+      </div>
+      <div class="form-control">
+        <i class="fa fa-lock"></i>
+        <input type="password" id="Password1" placeholder="Password" required />
+        <i class="fa fa-eye" onclick="changePasswordHideVisible('Password1', this)"></i>
+      </div>
+      <div class="form-control">
+        <i class="fa fa-lock"></i>
+        <input type="password" id="Password2" placeholder="Confirm Password" required />
+        <i class="fa fa-eye" onclick="changePasswordHideVisible('Password2', this)"></i>
+      </div>
+      <div class="form-control-other">
+        <label class="terms" for="terms"><input id="terms" type="checkbox" required />&nbsp; I read and
+          agree to Terms & Conditions</label>
+      </div>
+      <div class="form-control-other">
+        <button type="submit">CREATE ACCOUNT</button>
+      </div>
+      <div class="form-control-other">
+        <label for="logInhere">Already have an account?
+          <a href="javascript:void(0)" id="logInhere"> Login here</a></label>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

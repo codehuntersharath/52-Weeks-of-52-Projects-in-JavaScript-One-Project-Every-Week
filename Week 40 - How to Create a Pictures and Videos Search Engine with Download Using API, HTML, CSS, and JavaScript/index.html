@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picture & Video Search Engine - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="search">
+      <img src="https://cdn.pixabay.com/photo/2023/01/05/10/15/abstract-7698551_960_720.jpg" />
+      <div class="inputArea">
+        <h1>
+          The best free stock photos, royalty free images & videos shared by
+          creators.
+        </h1>
+        <div class="searchBox">
+          <div class="dropdown">
+            <input type="checkbox" id="dropdown" />
+            <label for="dropdown" class="dropdown-btn">
+              <span id="dropdownSelectedValue">
+                <i class="fa-regular fa-image"></i> Picture
+              </span>
+              <span class="arrow"></span>
+            </label>
+
+            <ul class="dropdown-content" role="menu">
+              <li><i class="fa-regular fa-image"></i> Picture</li>
+              <li><i class="fa-solid fa-video"></i> Videos</li>
+            </ul>
+          </div>
+          <input type="text" id="searchText" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <p>Total Search Results: <span id="totalResults"></span></p>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="items"></div>
+
+      <button class="loadMore">Load More</button>
+    </div>
+
+    <div class="popupView">
+      <div class="wrapper">
+        <div class="details">
+          <div class="photographer">
+            <i class="fa-solid fa-camera-retro"></i>
+            <span>Sharathchandar K</span>
+          </div>
+          <div class="buttons">
+            <button id="downloadClick">
+              <i id="setDownloadAttr" class="fa-solid fa-download"></i>
+            </button>
+            <button onclick="hidePopupView()">
+              <i class="fa-solid fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="previewItem"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

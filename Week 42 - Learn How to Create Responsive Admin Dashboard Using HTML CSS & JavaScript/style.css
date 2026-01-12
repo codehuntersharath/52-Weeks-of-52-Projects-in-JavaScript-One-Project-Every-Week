@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Jost";
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #25262f;
+  background-color: #f1f5f9;
+}
+
+.sideBar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 256px;
+  padding: 0;
+  background: #212b36;
+  border-right: 1px solid #212b36;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  transition: all 0.5s;
+}
+
+.wrapper.toggled {
+  margin-left: -16rem;
+  transition: all 0.5s;
+}
+
+.sideBar::-webkit-scrollbar {
+  display: none;
+}
+
+.sideBar .logo {
+  padding: 1.5rem;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+}
+
+.sideBar .sideBarNav .navItem {
+  color: #919eab;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.8;
+  white-space: nowrap;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.sideBar .sideBarNav .navItem.active {
+  color: #fff;
+}
+
+.sideBar .sideBarNav .navItem:hover {
+  color: #f4f6f8;
+}
+
+.sideBar .sideBarNav .navItem i {
+  opacity: 0.6;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+  transition: all 0.5s;
+}
+
+.sideBar .sideBarNav .navHeading {
+  color: #454f5b;
+  font-size: 0.75rem;
+  letter-spacing: 0.08rem;
+  font-weight: 700;
+  cursor: auto;
+}
+
+.dashBoardContent {
+  min-height: 100vh;
+  margin-left: 16rem;
+}
+
+.dashBoardContent .navBar {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.dashBoardContent .navBar .navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashBoardContent .navBar i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.dashBoardContent .navBar .navMenu .formControl {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #c4cdd5;
+  outline: none;
+  margin-left: 20px;
+}
+
+.dashBoardContent .fa-bell,
+.dashBoardContent .fa-user-tie {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #e0dcfe;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.dashBoardContent .bgPrimary {
+  background: #624bff;
+  padding-bottom: 9.5rem;
+  padding-top: 4rem;
+}
+
+.dashBoardContent .container {
+  padding: 0 2rem;
+  margin-top: -10rem;
+}
+
+.dashBoardContent .container .row,
+.footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.dashBoardContent .projectName {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.dashBoardContent .projectButton button {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 0 0.5rem;
+  font-size: 16px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.dashBoardContent .card {
+  margin-top: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 20, 0.08), 0 1px 2px rgba(0, 0, 20, 0.08);
+  border-radius: 15px;
+  background: #fff;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dashBoardContent .card .cardBody {
+  padding: 1.25rem;
+}
+
+.dashBoardContent .card .cardBody .cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.dashBoardContent .card .cardBody .cardContent i {
+  background: #e0dcfe;
+  color: #624bff;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.dashBoardContent .card .cardBody h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.dashBoardContent .card .cardBody p {
+  color: #637381;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.card .cardHeader {
+  padding: 1.25rem;
+}
+
+.tableResponsive,
+.tableTaskResponsive {
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-color: #dfe3e8;
+  border-collapse: collapse;
+}
+
+table> :not(caption)>*>* {
+  padding: 1rem;
+}
+
+table thead th {
+  padding: 10px 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  color: #637381;
+  text-align: start;
+  background: #f1f5f9;
+}
+
+table tfoot th {
+  font-weight: 400;
+  text-align: center;
+  background: transparent;
+  color: #000;
+}
+
+table .tabProjectName,
+table .tabProgress {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+table .tabProjectName i {
+  font-size: 22px;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  text-align: center;
+  background: #0ea5e9;
+  color: #fff;
+  border-radius: 10px;
+}
+
+table .badge {
+  padding: 1px 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+}
+
+table .bgSuccess {
+  background: #198754;
+}
+
+table .bgInfo {
+  background: #0ea5e9;
+}
+
+table .bgWarning {
+  background: #f59e0b;
+}
+
+table .bgDanger {
+  background: #dc3545;
+}
+
+table .avatarGrp {
+  display: flex;
+  align-items: center;
+}
+
+table .avatar {
+  position: relative;
+  width: 30px;
+  transition: 0.2s;
+}
+
+table .avatar i {
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #e0dcfe;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.teams .tabProjectName i {
+  border-radius: 50%;
+}
+
+table .avatar:hover,
+.dashboardCards .card:hover {
+  z-index: 1;
+  transform: translateY(-0.5rem);
+}
+
+table .progress {
+  width: 100%;
+  background-color: #f4f6f8;
+  height: 8px;
+  border-radius: 5px;
+}
+
+table .progressBar {
+  background-color: #624bff;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.taskPerformance {
+  width: 50% !important;
+}
+
+.taskPerformance .cardBody {
+  text-align: center;
+}
+
+.taskPerformance .cardBody i {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  padding: 1rem 2rem;
+  border-top: 1px solid #dfe3e8;
+}
+
+/* ----- Tablet Query ----- */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .dashboardCards,
+  .tableTaskResponsive {
+    flex-direction: column;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .taskPerformance {
+    width: 100% !important;
+  }
+}
+
+/* ----- Mobile Query ----- */
+@media only screen and (max-width: 480px) {
+
+  .dashboardCards,
+  .tableTaskResponsive {
+    flex-direction: column;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .formControl {
+    display: none;
+  }
+
+  .sideBar {
+    margin-left: -16rem;
+  }
+
+  .dashBoardContent {
+    margin-left: 0;
+  }
+
+  .dashBoardContent .card {
+    margin-top: 1rem;
+  }
+
+  .wrapper.toggled {
+    margin-left: 16rem;
+  }
+
+  .wrapper.toggled .dashBoardContent .card .cardBody .cardContent i {
+    display: none;
+  }
+
+  .taskPerformance {
+    width: 100% !important;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212b36;
+  border-radius: 5px;
+}

@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  height: 100vh;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  left: 0;
+  z-index: 99;
+  transition: all 0.3s ease 0s;
+}
+
+header.stickyMenu {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+header.stickyMenu nav {
+  max-width: 100%;
+}
+
+header nav {
+  background: #fff;
+  margin: 0px auto 0;
+  max-width: 1200px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav .container,
+header nav .container .navBarCollapse,
+header .formDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+header .container .navBarLogo {
+  padding: 0px 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+header nav .container .menuItems {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: 25px;
+}
+
+header nav .container .menuItems .navItem {
+  margin-right: 25px;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+header nav .container .menuItems .navItem.active,
+header nav .container .menuItems .navItem:hover,
+header nav .container .navBarCollapse i:hover {
+  color: #ffba00;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav .container .navBarCollapse i {
+  cursor: pointer;
+  line-height: 70px;
+  font-size: 18px;
+}
+
+header nav .cartCount {
+  margin-right: 20px;
+}
+
+header .searchInput,
+header .cartListView {
+  background: #78c1f3;
+  padding: 5px 20px;
+  display: none;
+}
+
+header .cartListView {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+header .searchInput.active,
+header .cartListView.active {
+  display: block;
+}
+
+header .formDetails .formControl {
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0;
+  width: 100%;
+  height: 2.25rem;
+  line-height: 1.5;
+  border: 0;
+  outline: none;
+}
+
+header .formDetails input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+header .formDetails i {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.bannerArea h1 {
+  position: absolute;
+  top: 155px;
+  right: 35%;
+  font-size: 35px;
+}
+
+.cartArea .container {
+  height: 100%;
+  padding: 1rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cartArea .container .singleProduct {
+  position: relative;
+  padding: 1rem;
+  width: 350px;
+  height: 450px;
+  box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+  border-radius: 5px;
+  background: #fff;
+  color: #222222;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.cartArea .filter {
+  height: 100%;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.cartArea .filter label {
+  padding: 0 10px;
+}
+
+.cartArea #category,
+.cartArea #limit,
+.cartArea .filter button {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  outline: none;
+  font-size: 18px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.cartArea .filter button {
+  background: #78c1f3;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.cartArea .filter i {
+  font-size: 18px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#cardList img {
+  width: 90%;
+  height: 72%;
+  object-fit: contain;
+  position: absolute;
+}
+
+#cardList .productDetails {
+  width: 97%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #78c1f3;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#cardList .productDetails h5 {
+  margin-bottom: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#cardList .productDetails .productPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#cardList .productDetails .productPrice div {
+  display: flex;
+  gap: 15px;
+}
+
+#cardList .productDetails .productPrice i {
+  font-size: 18px;
+  background: #fff;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#cardList .productDetails .productPrice i:hover {
+  background: #ffba00;
+}
+
+.price {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  text-align: justify;
+}
+
+.cartListView .fa-xmark {
+  cursor: pointer;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cartListView .productName {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.cartListView .productName img {
+  width: 50px;
+}
+
+.cartListView .productName h5 {
+  margin-left: 10px;
+}
+
+table th,
+table tr {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+table td {
+  padding: 0 15px;
+  font-weight: 500;
+}
+
+table tfoot {
+  background: lightgray;
+  color: #000;
+}
+
+table thead tr th {
+  color: #fff;
+  border-bottom: 1px solid #000000;
+}
+
+@media screen and (max-width: 782px) {
+  .cartArea .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

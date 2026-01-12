@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the Word - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <h1>Guess the Word</h1>
+  <div class="container">
+    <div class="gameCards">
+      <div class="cards active" data-option="Animals">
+        <i class="fa-solid fa-paw"></i>
+        Animals
+      </div>
+      <div class="cards" data-option="Foods">
+        <i class="fa-solid fa-utensils"></i>
+        Foods
+      </div>
+      <div class="cards" data-option="Sports">
+        <i class="fa-solid fa-medal"></i>
+        Sports
+      </div>
+    </div>
+    <div class="playground">
+      <br />
+      <h2 class="questionHint"></h2>
+      <br />
+      <br />
+      <div class="selectedWords"></div>
+      <div class="shuffleWords"></div>
+    </div>
+    <div class="btn">
+      <button class="startGame">Start Game</button>
+      <button class="resetSelection">Reset Game</button>
+    </div>
+    <br />
+  </div>
+</body>
+
+</html>

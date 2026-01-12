@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(login-bg.png);
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  margin: 15px;
+  background-color: hsla(0, 0%, 10%, 0.1);
+  border: 2px solid #dbdbdb;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.logIn-area {
+  text-align: center;
+  border-radius: 1px;
+  margin-bottom: 5px;
+  padding: 30px;
+}
+
+.logIn-area h1 {
+  color: #fff;
+}
+
+.form-control {
+  margin: 20px 0;
+  position: relative;
+  color: #fff;
+}
+
+.form-control input[type="text"],
+input[type="password"] {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #03e9f4;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+.form-control input::placeholder {
+  opacity: 0;
+}
+
+.form-control label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.form-control input:focus~label {
+  top: -20px;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.valid~label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.form-control input:focus::placeholder {
+  font-size: 12px;
+  color: #fff;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.form-control button {
+  width: 60%;
+  height: 45px;
+  transition: 0.5s;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-control button:hover {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.form-control a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-control i {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  cursor: help;
+  color: #fff;
+}
+
+i[aria-label]::after {
+  opacity: 0;
+  content: attr(aria-label);
+  position: absolute;
+  right: 20px;
+  top: 0;
+  padding: 5px;
+  white-space: nowrap;
+  background: #e35335;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  transition: opacity 0.2s;
+}
+
+i[aria-label]:hover:after {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.forget label {
+  position: unset;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  user-select: none;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 380px) {
+  .forget {
+    display: inline-block;
+  }
+}

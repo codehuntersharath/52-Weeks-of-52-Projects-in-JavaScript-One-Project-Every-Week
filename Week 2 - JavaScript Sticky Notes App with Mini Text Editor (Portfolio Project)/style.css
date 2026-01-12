@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #78c1f3;
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.addNote {
+  height: 150px;
+  background: #ffffff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 50px;
+}
+
+.note-row {
+  background: #ffffff;
+  margin: 10px;
+}
+
+.note-editor {
+  height: 250px;
+  width: 250px;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.note-editor::-webkit-scrollbar {
+  display: none;
+}
+
+.note-controls {
+  height: 50px;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid;
+}
+
+.note-controls div {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  background: #eeeeee;
+  border-radius: 5px;
+  line-height: 30px;
+}
+
+.note-controls img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}

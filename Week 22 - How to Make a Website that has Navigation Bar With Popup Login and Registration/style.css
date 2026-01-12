@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease;
+}
+
+body {
+  height: 100vh;
+  background: #fff;
+}
+
+nav {
+  position: relative;
+  height: 70px;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #536dfe;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 5px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li a {
+  position: relative;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+  display: inline-block;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+nav li a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+nav li button {
+  width: 80px;
+  font-size: 14px;
+}
+
+.modal-container {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, 0.7);
+  transition: all 0.4s;
+}
+
+.modal-container.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-content {
+  border-radius: 4px;
+  position: relative;
+  height: 475px;
+  width: 500px;
+  max-width: 90%;
+  background: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+form {
+  width: 450px;
+}
+
+.registration {
+  position: absolute;
+  transform: translate(500px);
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.fa-times {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.form-control label {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  transition: 0.3s;
+  color: #536dfe;
+}
+
+.form-control input {
+  outline: 0;
+  border: 0;
+  padding: 4px 0 0;
+  font-size: 14px;
+}
+
+.form-control:focus-within {
+  border-color: #8c7569;
+}
+
+.form-control:focus-within label {
+  color: #8c7569;
+}
+
+.forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.forget label,
+.terms label {
+  position: unset;
+  cursor: pointer;
+  display: flex;
+  user-select: none;
+  font-size: 14px;
+}
+
+.form-control-other {
+  margin: 5% auto;
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  height: 45px;
+  background-color: #eef2ff;
+  border-radius: 8px;
+  border-width: 2px;
+  color: #536dfe;
+  cursor: pointer;
+  border-color: #536dfe;
+  font-size: 16px;
+  box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px,
+    rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px,
+    rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px,
+    rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}

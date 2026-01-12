@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form Validation - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="logIn-area" id="LoginArea">
+      <h1>Login</h1>
+      <div class="form-control">
+        <input type="text" id="email" placeholder="Please Enter Email" onblur="checkFieldEmpty(this),checkEmail()" />
+        <label>Email</label>
+        <i id="emailErr" class="fa fa-envelope"></i>
+      </div>
+
+      <div class="form-control">
+        <input type="password" id="password" placeholder="Please Enter Password"
+          onblur="checkFieldEmpty(this),checkPassword()" />
+        <label>Password</label>
+        <i id="passErr" class="fa fa-lock"></i>
+      </div>
+
+      <div class="form-control">
+        <div class="forget">
+          <label for="remember"><input id="remember" type="checkbox" />Remember Me</label>
+          <a href="javascript:void(0)">Forget Password?</a>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <button id="logIn" onclick="DoValidate()">Log in</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

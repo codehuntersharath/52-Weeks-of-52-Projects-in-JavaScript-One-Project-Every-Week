@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website with Login and Register - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">Your Logo.</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <button id="modalLogin">
+          Login
+          <i class="fa fa-sign-out" aria-hidden="true"></i>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="modal-container">
+    <div class="modal-content">
+      <i class="fa fa-times" onclick="closeModalContent()"></i>
+      <form class="login">
+        <h2>Login</h2>
+        <div class="form-control">
+          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-control">
+          <label for="password"><i class="fa fa-lock"></i> Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <div class="form-control-other">
+          <div class="forget">
+            <label class="remember" for="remember"><input id="remember" type="checkbox" />&nbsp; Remember
+              Me</label>
+            <a href="javascript:void(0)">Forget Password?</a>
+          </div>
+        </div>
+        <div class="form-control-other">
+          <button type="submit">LOGIN</button>
+        </div>
+        <div class="form-control-other">
+          <label for="create">Don't have an account?
+            <a href="javascript:void(0)" id="create"> Sign up now</a></label>
+        </div>
+      </form>
+
+      <form class="registration">
+        <h2>Registration</h2>
+        <div class="form-control">
+          <label for="username"><i class="fa fa-user"></i> Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required />
+        </div>
+        <div class="form-control">
+          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-control">
+          <label for="password"><i class="fa fa-lock"></i> Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <div class="form-control-other">
+          <div class="terms">
+            <label class="terms" for="terms"><input id="terms" type="checkbox" required />&nbsp; I read and
+              agree to Terms & Conditions</label>
+          </div>
+        </div>
+        <div class="form-control-other">
+          <button type="submit">CREATE ACCOUNT</button>
+        </div>
+        <div class="form-control-other">
+          <label for="logInhere">Already have an account?
+            <a href="javascript:void(0)" id="logInhere"> Login </a></label>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

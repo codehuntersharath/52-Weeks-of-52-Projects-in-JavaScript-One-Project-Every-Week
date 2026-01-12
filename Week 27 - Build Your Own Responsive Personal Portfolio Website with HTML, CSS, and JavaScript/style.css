@@ -1,0 +1,597 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1020;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px 8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+i {
+  cursor: pointer;
+}
+
+header nav .logo {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.logo a {
+  color: #212529;
+}
+
+header nav .number {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky-on-top {
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+.fa-bars-staggered {
+  width: 25px;
+  font-size: 25px;
+  margin: 20px;
+  z-index: 1030;
+}
+
+.navbar-collapse {
+  background: rgb(0, 0, 0, 0.95);
+  position: fixed;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 1020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-collapse.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-center {
+  margin: auto;
+}
+
+.fa-xmark {
+  color: #fff;
+}
+
+.navbar-menus {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.nav-items a {
+  color: #fff;
+}
+
+.active a {
+  color: #f5df4e;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons i:hover {
+  transform: scale(1.5);
+}
+
+ul li {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  list-style: none;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+section {
+  position: relative;
+  padding: 3rem 0;
+  overflow: hidden;
+}
+
+#home {
+  background: #f5df4e;
+  min-height: 100vh;
+}
+
+#contact {
+  background: #f5df4e;
+  min-height: 90vh;
+}
+
+#contact .col {
+  width: 50%;
+  margin: 10px;
+}
+
+#home .row {
+  margin-top: 3rem;
+}
+
+.row {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  align-self: center;
+}
+
+.who {
+  font-weight: 300;
+  line-height: 1.3;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.txt-rotate {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+
+.location {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-weight: 500;
+  border-width: 2px;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-dark {
+  color: #fff;
+  background: #212529;
+  border-color: #212529;
+}
+
+.btn-contact {
+  padding: 1rem 2rem;
+  font-weight: 500;
+  border-width: 2px;
+}
+
+.rounded-pill {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: rgba(248, 249, 250, 1);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  height: 430px;
+  width: 400px;
+}
+
+.rounded-pill img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  left: 50%;
+  font-size: 20px;
+}
+
+.scroll-down-arrow i {
+  position: relative;
+  animation: fadeInDown 1.5s infinite;
+}
+
+@keyframes fadeInDown {
+  0% {
+    top: -25px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+.container-section {
+  padding: 3rem 2rem;
+  margin: 0 5rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title span {
+  background: #f5df4e;
+  padding: 0 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+  font-weight: bold !important;
+}
+
+#about h2,
+#service h2,
+#resume h2,
+#portfolio h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+#about .underline {
+  border-bottom: 3px solid #f5df4e;
+  font-weight: 600;
+}
+
+#about .details {
+  margin-top: 3rem;
+}
+
+#about .experience .years {
+  font-size: 8rem;
+  text-align: center;
+}
+
+#about .experience span {
+  font-weight: 700;
+}
+
+#about .experience p {
+  font-size: 1.75rem;
+}
+
+#about .description {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+#about .aboutMe {
+  width: 70%;
+}
+
+#about .label {
+  color: #6c757d;
+}
+
+#about .value {
+  font-weight: 600;
+}
+
+#service,
+#portfolio {
+  background: #eee;
+}
+
+#service .details {
+  display: grid;
+  padding-top: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#service .details .col {
+  padding: 1rem;
+}
+
+#service i {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #f5df4e;
+}
+
+#service .featured-box {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#service .featured-box h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#contact .social-icons i {
+  color: #4d555a;
+}
+
+#contact .col h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.form-control {
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.form-control label {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  height: 55px;
+  font-size: 25px;
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+
+.form-button button {
+  width: 180px;
+}
+
+#resume h3 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#resume .resumeBox {
+  padding: 0 1rem;
+  border-left: 2px solid #f5df4e;
+  margin-bottom: 1rem;
+}
+
+#resume .resumeBox h5 {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+#resume .resumeBox .resume-des {
+  color: #6c757d;
+}
+
+#resume .details {
+  display: grid;
+  padding-top: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#resume .details .col p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#resume .btn {
+  margin-top: 2rem;
+  border: 2px solid #f5df4e;
+  outline: none;
+  cursor: pointer;
+}
+
+#resume .details .col {
+  padding: 1rem;
+}
+
+.progress {
+  background: #e9ecef;
+  width: 100%;
+  height: 8px;
+  display: flex;
+}
+
+.progress-bar {
+  background: #f5df4e;
+}
+
+hr {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+footer {
+  background-color: #111418;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 8px;
+  right: 10px;
+  font-size: 25px;
+}
+
+.back-to-top i {
+  color: #ccc;
+}
+
+@media (max-width: 481px) {
+  header nav {
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .txt-rotate {
+    font-size: 3rem;
+  }
+
+  .rounded-pill {
+    height: 350px;
+    width: 350px;
+  }
+
+  .rounded-pill img {
+    height: 320px;
+    width: 350px;
+  }
+
+  #service {
+    padding-bottom: 0;
+  }
+
+  #about .details {
+    display: block !important;
+  }
+
+  .details {
+    display: block !important;
+  }
+
+  .container-section {
+    margin: 1rem !important;
+    padding: 0rem !important;
+  }
+
+  section {
+    padding: 6rem 0;
+  }
+}
+
+@media (max-width: 961px) {
+  header nav {
+    padding: 1rem;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  .text-center {
+    margin-bottom: 0rem !important;
+  }
+
+  #about,
+  #service,
+  #resume,
+  #contact {
+    padding: 1.5rem 0;
+  }
+
+  #home .who {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  #about .row,
+  #resume .row,
+  #contact .row {
+    flex-direction: column;
+  }
+
+  #contact .row {
+    text-align: center;
+  }
+
+  #about .row h2 {
+    font-size: 25px !important;
+    margin-bottom: 1rem;
+  }
+
+  #contact .row h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  #about .details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .details {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .details .col,
+  #contact .col,
+  #contact .row p {
+    margin-bottom: 1rem;
+  }
+
+  #contact .col {
+    width: 100%;
+  }
+
+  #about .aboutMe {
+    width: auto;
+    text-align: center;
+  }
+
+  .btn,
+  .btn-contact {
+    padding: 1rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-section {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}

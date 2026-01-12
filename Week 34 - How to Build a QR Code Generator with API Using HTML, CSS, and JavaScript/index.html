@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Code Generator - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>QR Code Generator</h2>
+    <div class="form-group">
+      <div class="form-control">
+        <label>Enter your Text or URL</label>
+        <input type="text" id="qrText" onkeyup="generateQRCode()" />
+      </div>
+      <div class="form-control">
+        <label>Size</label>
+        <select id="qrSizes" onchange="generateQRCode()"></select>
+      </div>
+      <div class="form-control">
+        <label>Background Color</label>
+        <input type="color" id="colorLight" value="#ffffff" onchange="generateQRCode()" />
+      </div>
+      <div class="form-control">
+        <label>Foreground Color</label>
+        <input type="color" id="colorDark" value="#000000" onchange="generateQRCode()" />
+      </div>
+      <!-- <div class="form-button">
+          <button onclick="generateQRCode()">Generate QR Code</button>
+        </div> -->
+      <div class="qrCodeView"></div>
+      <div class="form-button" style="display: none" id="downloadBtn">
+        <button onclick="downloadQRCode()">Download</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+
+</html>

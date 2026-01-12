@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: #78c1f3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 14px 14px 0 0 #000000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.gameScore {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.playground {
+  display: flex;
+  grid-gap: 30px;
+  flex-direction: column;
+}
+
+.resultField {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.resultField i {
+  cursor: pointer;
+  font-size: 5rem;
+  color: #78c1f3;
+}
+
+.resultField .userSelect i {
+  transform: rotate(90deg);
+}
+
+.resultField .botSelect i {
+  transform: rotate(-90deg) rotateY(180deg);
+}
+
+.userSelect .fa-hand-scissors {
+  transform: rotate(0deg) rotateY(180deg) !important;
+}
+
+.botSelect .fa-hand-scissors {
+  transform: rotate(0deg) rotateY(0deg) !important;
+}
+
+.playOption {
+  display: flex;
+  gap: 25px;
+}
+
+.playground.start .userSelect {
+  transform-origin: right;
+  animation: userShake 0.8s ease infinite;
+}
+
+@keyframes userShake {
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+.playground.start .botSelect {
+  transform-origin: left;
+  animation: botShake 0.8s ease infinite;
+}
+
+@keyframes botShake {
+  50% {
+    transform: rotate(-10deg);
+  }
+}
+
+.playground.start .fa-solid,
+.playground.start .card {
+  pointer-events: none;
+}
+
+.card {
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px lightblue;
+  padding: 10px;
+}
+
+.card h4 {
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.fa-solid {
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
+  color: #85a1b3;
+}
+
+.card:hover,
+.card.active {
+  background: #000000;
+}
+
+.card:hover .fa-solid,
+.card.active .fa-solid {
+  color: #78c1f3;
+}

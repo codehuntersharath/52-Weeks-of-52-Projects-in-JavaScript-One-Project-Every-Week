@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App with API - By SharathchandarK</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container startScreen">
+    <h2>Quiz Application</h2>
+    1. You will be asked 5 Questions one after another. <br />
+    2. Each question will have a time limit of 10 seconds. <br />
+    3. You can't select any option once time goes off.<br />
+
+    <div class="btn">
+      <input type="text" id="userName" placeholder="User Name" />
+      <br />
+      <button class="startQuiz" onclick="startQuiz()">Start Quiz</button>
+    </div>
+  </div>
+
+  <div class="container playground">
+    <div class="quizHeader">
+      <div><span id="questionCount">1 </span> of 5 Questions</div>
+      <div>
+        <i class="fa-solid fa-stopwatch"></i>
+        <span id="questionTimer">10</span>s
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="quizBody">
+      <h3 id="question"></h3>
+      <ul id="quizOptions"></ul>
+    </div>
+
+    <div class="loader">
+      <i class="fa-solid fa-gear fa-spin" style="font-size: 55px"></i>
+    </div>
+
+    <div class="quizFooter">
+      <button id="nextButton">Next</button>
+    </div>
+  </div>
+
+  <div class="container endScreen">
+    <p>Quiz Finished!</p>
+
+    <p>Hello! <span id="resultUserName"></span></p>
+
+    <p>Your score is <span class="finialScore">0</span> out of 5</p>
+
+    <div class="btn" style="margin: 1rem 0">
+      <button class="resetQuiz" onclick="startQuiz()">Reset Quiz</button>
+    </div>
+  </div>
+</body>
+
+</html>
