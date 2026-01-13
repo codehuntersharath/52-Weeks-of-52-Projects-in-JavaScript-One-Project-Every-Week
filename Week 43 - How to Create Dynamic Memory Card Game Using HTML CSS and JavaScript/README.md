@@ -35,7 +35,7 @@ This project demonstrates real-world **game logic, DOM manipulation, and interac
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
-[![Watch the video](https://img.youtube.com/vi/c0Xa0ybKsTs/maxresdefault.jpg)](https://youtu.be/c0Xa0ybKsTs)
+[![Watch the video](https://img.youtube.com/vi/vWTlWi_v6NE/maxresdefault.jpg)](https://youtu.be/vWTlWi_v6NE)
 
 If you’re learning JavaScript and building real projects, consider subscribing for weekly hands-on tutorials.
 
