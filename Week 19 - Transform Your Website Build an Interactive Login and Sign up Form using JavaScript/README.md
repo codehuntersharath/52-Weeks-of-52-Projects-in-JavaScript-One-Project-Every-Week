@@ -39,6 +39,24 @@ Perfect for beginners who want to understand **how real forms work in production
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2019%20-%20Transform%20Your%20Website%20Build%20an%20Interactive%20Login%20and%20Sign%20up%20Form%20using%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/00HPdzBjVaE">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2019%20-%20Transform%20Your%20Website%20Build%20an%20Interactive%20Login%20and%20Sign%20up%20Form%20using%20JavaScript//stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2019%20-%20Transform%20Your%20Website%20Build%20an%20Interactive%20Login%20and%20Sign%20up%20Form%20using%20JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
