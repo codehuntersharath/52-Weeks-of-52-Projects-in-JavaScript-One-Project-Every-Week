@@ -32,6 +32,24 @@ This project demonstrates how to fetch external data and build a real frontend a
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2032%20-%20Building%20a%20Random%20Quote%20Generator%20with%20API%20Using%20HTML%2C%20CSS%2C%20and%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/QdpATqyFbyk">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2032%20-%20Building%20a%20Random%20Quote%20Generator%20with%20API%20Using%20HTML%2C%20CSS%2C%20and%20JavaScript//stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2032%20-%20Building%20a%20Random%20Quote%20Generator%20with%20API%20Using%20HTML%2C%20CSS%2C%20and%20JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
