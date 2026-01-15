@@ -32,6 +32,24 @@ Part of the **52 Weeks of 52 JavaScript Projects** series.
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2012%20-%20Create%20A%20Simple%20Analog%20Clock%20with%20JavaScript,%20HTML%20&%20CSS%20%20SharathchandarK/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/0D774MdWrxE">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2012%20-%20Create%20A%20Simple%20Analog%20Clock%20with%20JavaScript,%20HTML%20&%20CSS%20%20SharathchandarK/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2012%20-%20Create%20A%20Simple%20Analog%20Clock%20with%20JavaScript,%20HTML%20&%20CSS%20%20SharathchandarK/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
