@@ -32,6 +32,24 @@ This project is part of **52 Weeks of 52 JavaScript Projects**, designed to stre
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%203%20-%20JavaScript%20Calculator%20Project%20for%20Your%20Portfolio%20Vanilla%20JS/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/HZc3GyuQjv8">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%203%20-%20JavaScript%20Calculator%20Project%20for%20Your%20Portfolio%20Vanilla%20JS//stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%203%20-%20JavaScript%20Calculator%20Project%20for%20Your%20Portfolio%20Vanilla%20JS/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
