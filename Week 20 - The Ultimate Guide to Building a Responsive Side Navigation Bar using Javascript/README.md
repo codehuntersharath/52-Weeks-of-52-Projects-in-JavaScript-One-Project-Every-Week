@@ -32,6 +32,24 @@ This project is part of **52 Weeks of 52 JavaScript Projects**, focused on build
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week//Week%2020%20-%20The%20Ultimate%20Guide%20to%20Building%20a%20Responsive%20Side%20Navigation%20Bar%20using%20Javascript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/u1omzX1-t2s">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week//Week%2020%20-%20The%20Ultimate%20Guide%20to%20Building%20a%20Responsive%20Side%20Navigation%20Bar%20using%20Javascript//stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week//Week%2020%20-%20The%20Ultimate%20Guide%20to%20Building%20a%20Responsive%20Side%20Navigation%20Bar%20using%20Javascript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
