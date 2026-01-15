@@ -30,6 +30,24 @@ A **modern, animated login form** built using **HTML, CSS, and Vanilla JavaScrip
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2017%20-%20Animated%20Login%20Form%20with%20Validation%20Using%20HTML%2C%20CSS%20%26%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/uHAp0URTcwU">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2017%20-%20Animated%20Login%20Form%20with%20Validation%20Using%20HTML%2C%20CSS%20%26%20JavaScript/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2017%20-%20Animated%20Login%20Form%20with%20Validation%20Using%20HTML%2C%20CSS%20%26%20JavaScript/**
+
+---
+
 ## 🚀 Project Overview
 
 This project demonstrates how professional login forms work in real applications — from animated UI interactions to JavaScript-based form validation and authentication logic.
