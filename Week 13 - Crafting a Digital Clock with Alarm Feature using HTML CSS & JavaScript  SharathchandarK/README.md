@@ -33,6 +33,24 @@ Part of the **52 Weeks of 52 JavaScript Projects** series.
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2013%20-%20Crafting%20a%20Digital%20Clock%20with%20Alarm%20Feature%20using%20HTML%20CSS%20&%20JavaScript%20%20SharathchandarK/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/vI4iVFobW7k">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2013%20-%20Crafting%20a%20Digital%20Clock%20with%20Alarm%20Feature%20using%20HTML%20CSS%20&%20JavaScript%20%20SharathchandarK//stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2013%20-%20Crafting%20a%20Digital%20Clock%20with%20Alarm%20Feature%20using%20HTML%20CSS%20&%20JavaScript%20%20SharathchandarK/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
