@@ -31,6 +31,24 @@ This project focuses on **real game logic**, making it a **strong frontend portf
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2049%20-%20Creating%20Tetris%20Game%20with%20HTML%2C%20CSS%2C%20Canvas%2C%20and%20JavaScript%20-%20Complete%20Guide/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/kNk0S-2IRCE">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2049%20-%20Creating%20Tetris%20Game%20with%20HTML%2C%20CSS%2C%20Canvas%2C%20and%20JavaScript%20-%20Complete%20Guide/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2049%20-%20Creating%20Tetris%20Game%20with%20HTML%2C%20CSS%2C%20Canvas%2C%20and%20JavaScript%20-%20Complete%20Guide/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
