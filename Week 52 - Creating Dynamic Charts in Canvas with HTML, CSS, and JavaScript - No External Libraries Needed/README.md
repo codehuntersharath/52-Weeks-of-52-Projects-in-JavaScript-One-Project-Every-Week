@@ -32,6 +32,24 @@ Perfect for **frontend portfolios**, interviews, and understanding how charting 
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2052%20-%20Creating%20Dynamic%20Charts%20in%20Canvas%20with%20HTML%2C%20CSS%2C%20and%20JavaScript%20-%20No%20External%20Libraries%20Needed/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/nLqL-Z836Z4">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2052%20-%20Creating%20Dynamic%20Charts%20in%20Canvas%20with%20HTML%2C%20CSS%2C%20and%20JavaScript%20-%20No%20External%20Libraries%20Needed/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2052%20-%20Creating%20Dynamic%20Charts%20in%20Canvas%20with%20HTML%2C%20CSS%2C%20and%20JavaScript%20-%20No%20External%20Libraries%20Needed/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
