@@ -32,6 +32,24 @@ Part of the **52 Weeks of 52 JavaScript Projects** series.
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%205%20-%20Build%20a%20Secure%20Password%20Generator%20in%20JavaScript%20Real%20Logic%20Project/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/2LxzGlTp1to">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%205%20-%20Build%20a%20Secure%20Password%20Generator%20in%20JavaScript%20Real%20Logic%20Project/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%205%20-%20Build%20a%20Secure%20Password%20Generator%20in%20JavaScript%20Real%20Logic%20Project/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
