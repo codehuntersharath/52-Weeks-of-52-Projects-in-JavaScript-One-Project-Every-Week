@@ -32,6 +32,24 @@ This project demonstrates real-world shopping cart logic, product filtering, and
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2041%20-%20Building%20an%20ECommerce%20Website%20with%20Add%20to%20Cart%20Using%20API%20and%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/c0Xa0ybKsTs">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2041%20-%20Building%20an%20ECommerce%20Website%20with%20Add%20to%20Cart%20Using%20API%20and%20JavaScript/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2041%20-%20Building%20an%20ECommerce%20Website%20with%20Add%20to%20Cart%20Using%20API%20and%20JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
