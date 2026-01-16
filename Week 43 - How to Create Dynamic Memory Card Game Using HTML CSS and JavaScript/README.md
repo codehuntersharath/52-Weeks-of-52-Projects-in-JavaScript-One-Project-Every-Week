@@ -32,6 +32,24 @@ This project demonstrates real-world **game logic, DOM manipulation, and interac
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2043%20-%20How%20to%20Create%20Dynamic%20Memory%20Card%20Game%20Using%20HTML%20CSS%20and%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/vWTlWi_v6NE">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2043%20-%20How%20to%20Create%20Dynamic%20Memory%20Card%20Game%20Using%20HTML%20CSS%20and%20JavaScript/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2043%20-%20How%20to%20Create%20Dynamic%20Memory%20Card%20Game%20Using%20HTML%20CSS%20and%20JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
