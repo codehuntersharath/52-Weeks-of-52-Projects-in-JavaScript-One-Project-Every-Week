@@ -32,6 +32,24 @@ This project allows users to search, preview, and download images & videos — s
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2040%20-%20How%20to%20Create%20a%20Pictures%20and%20Videos%20Search%20Engine%20with%20Download%20Using%20API%2C%20HTML%2C%20CSS%2C%20and%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/n8CofTA43NM">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2040%20-%20How%20to%20Create%20a%20Pictures%20and%20Videos%20Search%20Engine%20with%20Download%20Using%20API%2C%20HTML%2C%20CSS%2C%20and%20JavaScript/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2040%20-%20How%20to%20Create%20a%20Pictures%20and%20Videos%20Search%20Engine%20with%20Download%20Using%20API%2C%20HTML%2C%20CSS%2C%20and%20JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
