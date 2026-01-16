@@ -32,6 +32,24 @@ This project demonstrates how to work with real data and build practical fronten
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2033%20-%20Learn%20How%20To%20Build%20A%20Dynamic%20Currency%20Converter%20with%20API%20Using%20JavaScript/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/6Kzy-xpRzbI">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2033%20-%20Learn%20How%20To%20Build%20A%20Dynamic%20Currency%20Converter%20with%20API%20Using%20JavaScript//stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/52-Weeks-of-52-Projects-in-JavaScript-One-Project-Every-Week/Week%2033%20-%20Learn%20How%20To%20Build%20A%20Dynamic%20Currency%20Converter%20with%20API%20Using%20JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
